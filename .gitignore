@@ -1,0 +1,32 @@
+# ===== Данные пользователя =====
+fuel.db
+fuel.db-wal
+fuel.db-shm
+*.db
+*.db-wal
+*.db-shm
+
+# ===== Настройки и логи =====
+config_local.json
+*.log
+
+# ===== Бэкапы =====
+backup/
+backups/
+
+# ===== Временные файлы =====
+__pycache__/
+*.pyc
+
+# ===== Виртуальные окружения =====
+venv/
+env/
+.venv/
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== Секреты =====
+.env
+token.txt
